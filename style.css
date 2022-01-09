@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+
+
+
+body{
+    width: 50%;
+    height: 50%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+   
+}
+
+
+
+#heading{
+    color: rgb(255, 255, 255);
+    
+}
+
+.login{
+    
+    position:center;
+    margin-left:50%;
+    margin-right: 50%;
+    margin-top:10%;
+    
+}
+.em{
+    width:15em;
+    height: 35px;
+    margin-bottom: -5px;
+    
+}
+input:focus{
+    outline: rgb(238, 103, 13);
+    border-color: rgb(243, 103, 9);
+    
+}
+.pas{
+    width:15em;
+    height: 35px;
+    margin-top:-6px;
+}
+.forgot{
+    margin-left:18%;
+    
+    
+    
+}
+#login_but{
+    width: 15em;
+    height:35px;
+    background-color: rgb(243, 105, 13);
+    border: rgb(202, 61, 5);
+}
+p{
+    color:white;
+    
+}
+
+.form{
+
+    align-items:center;
+    float:right;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 5%;
+    
+    
+}
+.bgimg{
+    background-size:cover ;
+   background-attachment:fixed;
+}
+::-webkit-scrollbar {
+    -webkit-appearance:none;
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(112, 108, 108, 0.8);
+    box-shadow: 0 0 1px rgba(165, 164, 164, 0.8);
+}
+.webContainer{
+    width: 50%;
+    min-width:50px;
+    height: auto;
+}
+.card{background-color:transparent;}
+/*.card-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}*/
+.foo{
+    font-family: monospace;
+    text-align: center;
+    background-color:lightslategray;  
+}
+
+
+
+
+
+
+
+
