@@ -4,65 +4,164 @@
     
 }
 
-
-
-
 body{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     background-position: cover;
     background-repeat: no-repeat;
     background-attachment:fixed;
-   
+    overflow-x: hidden;  
 }
 
+   .ker{
+     text-align: center;
+     justify-content: center;
+     color:skyblue;
+   }
+   .kera{
+     color:black;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     justify-content: center;
+   }
+   
+   .exp{
+     color:blueviolet;
+   }
+   .expe{
+     text-decoration: none;
+     width: 40%;
+     border-radius: 25px;
+     height:45px ;
+     border:3px blue;
+     background-color: dodgerblue;
+   }
+ 
 
+   button.expe:hover{
+     background-color: rgb(35, 77, 119);
+   }
+   .embed-responsive-item{
+     text-align: center;
+     
+   
+   }
+ 
+  
+   .side{
+     float: left;
+     margin:25px 0 0 50px;
+     font-family:'Times New Roman', Times, serif;
+   }
+   .foocont{
+     align-content: center;
+     align-items: center;
+     justify-content:center;
+     padding-top: 19%;
+     padding-bottom: 5px;
+     text-align: center;
+     
+    
+    
+   }
+  .ser{
+    float: left;
+    text-align: center;
+    justify-content: center;
+    padding-top: -100%;
+    margin-top: 8%;
+    margin-left: 3%;
+    
+  }
+  .news{
+    width: 60%;
+    height:35px;
+    border-radius: 25px;
+    border:3px solid greenyellow;
+  }
+  
+  .newsbutton{
+    width: 25%;
+    border-radius: 25px;
+    height:35px ;
+    border:3px solid greenyellow;
+  }
+  button.newsbutton:hover{
+    background-color: greenyellow;
+  }
+ 
 
+ .end{  margin-top: 12px;}
+.slider{
+    width:300px;
+    height: 500px;
+    overflow-x: scroll;
+}
+/*
+#slide-0{
+    background-image:url("../images/alapp.jpg") ;
+}
+#slide-1{
+    background-image:url("../images/arakkal.jpg") ;
+}
+#slide-2{
+    background-image:url("../images/athirapilly.jpg") ;
+}*/
 #heading{
     color: rgb(255, 255, 255);
+    align-items: center;
     
 }
 
 .login{
     
     position:center;
-    margin-left:50%;
-    margin-right: 50%;
-    margin-top:10%;
+   /* margin-left:20%;
+    margin-right: 20%; */
+    margin-top:6%;
     
 }
-.em{
-    width:15em;
-    height: 35px;
+.email{
+    width:18em;
+    height: 40px;
     margin-bottom: -5px;
+    border-radius: 10px;
+    border-color: dodgerblue;
     
 }
 input:focus{
-    outline: rgb(238, 103, 13);
-    border-color: rgb(243, 103, 9);
+    outline: rgb(56, 1, 255);
+    border-color: rgb(119, 0, 255);
     
 }
-.pas{
-    width:15em;
-    height: 35px;
+.password{
+    width:18em;
+    height: 40px;
     margin-top:-6px;
+    border-radius: 10px;
+    border-color: dodgerblue;
 }
 .forgot{
     margin-left:18%;
+    margin-top: 2%;
     
     
     
 }
 #login_but{
-    width: 15em;
-    height:35px;
-    background-color: rgb(243, 105, 13);
-    border: rgb(202, 61, 5);
+    width: 18em;
+    height:40px;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    border-radius: 10px;
+}
+#login_but:hover{
+  background-color: rgb(0, 255, 21);
 }
 p{
     color:white;
     
 }
+
 
 .form{
 
@@ -88,8 +187,8 @@ p{
     box-shadow: 0 0 1px rgba(165, 164, 164, 0.8);
 }
 .webContainer{
-    width: 50%;
-    min-width:50px;
+    width: 100%;
+    min-width:1000px;
     height: auto;
 }
 .card{background-color:transparent;}
@@ -99,14 +198,148 @@ p{
 }*/
 .foo{
     font-family: monospace;
-    text-align: center;
-    background-color:lightslategray;  
+    
+    background-color:lightslategray!important;  
+    
+}
+
+   
+
+
+.fa { 
+        padding: 10px;
+        font-size: 20px;
+        width: 40px;
+        text-align: left;
+        text-decoration: none;
+        border-radius: 50%;
+
+  }
+  
+
+  .fa:hover {
+    opacity: 0.9;
+  }
+  
+ 
+  
+  /* fb*/
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 10px 10px 10px 15px;
+    
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+/*Ig*/
+.fa-instagram{
+    background: #f09433; 
+    color:white;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );*/
+}
+/*youtube*/
+.fa-youtube{
+    background:white ;
+    color:#c4302b ;
 }
 
 
+/*     signup        */
 
 
+.form{
+     
+  color:rgb(201,228, 252) ;
+  align-items: center;
+  justify-content: center;
+  
+}
+.fas { 
+color: #2c2b2b;
 
+}
 
+.fa-eye {
+margin: 0 6px; 
+cursor: pointer;
+color: rgb(39, 230, 14); 
+}
+.fa-eye-slash {
+margin: 0 6px; 
+cursor: pointer;
+color: rgb(182, 50, 50); 
+font-size: .95em; 
+}
+.fa-envelope,.fa-mobile,.fa-lock{
+color: rgb(201,228, 252);
+}
+/*#pass {
+align-items: center;
+display: flex;
+border: solid 1px #9b9b9b; 
+background-color: #fff; 
+border-radius: 6px;
+} */
 
+.form-labelp{
+display:block;
+border-radius: 4px;
+}
 
+.form-controlc{
+width: 88%;
+height: 78%;
+border-radius: 5%;
+} 
+/*#strength{
+display:none;
+}*/
+progress#strength {
+width: 60%; 
+height: 8px;
+border: solid 1px #ccc;
+border-radius: 6px;
+background-color: #fff;
+margin: .2em .2em .2em 0;
+}
+
+progress[value]::-webkit-progress-value {
+background-image:
+ -webkit-linear-gradient(-45deg, 
+             transparent 33%, rgba(0, 0, 0, .1) 33%, 
+             rgba(0,0, 0, .1) 66%, transparent 66%),
+ -webkit-linear-gradient(top, 
+             rgba(255, 255, 255, .25), 
+             rgba(0, 0, 0, .25));
+border-radius: 2px; 
+background-size: 35px 20px, 100% 100%, 100% 100%; 
+}
+progress.pb20[value]::-webkit-progress-value {
+background-color: rgba(7, 255, 90, 0.8);
+}
+progress.pb40[value]::-webkit-progress-value {
+background-color:rgba(7, 255, 90, 0.8) ; 
+}
+progress.pb60[value]::-webkit-progress-value {
+background-color: rgb(255, 126, 6); 
+}
+progress.pb80[value]::-webkit-progress-value {
+background-color: rgb(255, 126, 6);
+}
+progress.pb100[value]::-webkit-progress-value {
+background-color: rgba(250, 7, 7, 0.8); 
+}
+#strength{
+display: none;
+}
+
+/*sign up end*/
