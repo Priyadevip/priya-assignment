@@ -109,7 +109,50 @@
                     </section>
                 </main>
             </div>
-        </div>        
+        </div>    
+        <!--form start-->
+        <div class="form">
+            <div class="col-lg-4 myMargin">
+            <form name="myform" class="row  g-3" action="./districts.html"  onsubmit="return validate();">
+              <div class="col-md-6">
+                <label for="firstname" class="form-label">First Name</label>
+                <input type="text" class="form-control" required id="firstname">
+              </div>
+              <div class="col-md-6">
+                <label for="lastname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" required id="lastname">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Email Address<i class="fas fa-envelope"></i></label>
+                <input type="email" class="form-control" required id="emailid" placeholder="">
+              </div>
+              <div class="col-12">
+                <label for="inputphonenumber" class="form-label">Phone Number<i class="fas fa-mobile"></i> </label>
+                <input type="text" class="form-control" required id="phoneid" placeholder="xxx-xxx-xxxx, xxx.xxx.xxxx, xxx xxx xxxx"
+                name="submit">
+                </div>
+              <div class="col-12" id="pass">
+                  <label for="password" class="form-labelp">Password <i class="fas fa-lock"></i>
+                    <progress max="100" value="0" id="strength" aria-label="password strength progress bar">
+                     
+                    </progress> </label>
+                  <input type="password" class="form-controlc" required id="password" placeholder="" onclick="dovalidate()">
+                  <i class="fas fa-eye eyeIcon"></i>
+              </div>
+              
+              <div class="col-12"><br>
+             <button type="submit" class="btn btn-primary">Sign Up &nbsp;<i class="fas fa-angle-right"></i></button>
+             </div>
+             <aside>
+              <p style="font-size: 70%;color: rgb(201,228, 252);">By signing up, you agree to our <a href="#">Terms of Service</a>, <a href="#">Privacy Policy</a></p>
+             </aside>
+             </form>
+        </div>
+
+
+<script src="./script.js">
+  
+</script>    
             <div class="tm-col-right tm-col-footer">
                 <footer class="tm-site-footer text-right">
                     <p class="mb-0">Website Design By 

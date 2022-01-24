@@ -49,7 +49,7 @@
             </div>
           </div>
     <!--Login Form-->
-    <form action="#" class="login">
+    <form action="district.html" class="login">
         <h2 id="heading">User LogIn</h2>
         <br>
         <div class="login_con">
@@ -84,6 +84,59 @@
     
     
     <!--/login Form-->
-</div>
-</body>
-</html>
+
+    <script>
+
+      function validate(){
+      let email=document.getElementById("em");
+      let password=document.getElementById("password");
+      
+        if(email.value.trim()=="")
+           {
+             alert("Email can't be empty");
+             return false;
+           }
+      var regexp = /^([A-Za-z0-9\.-]+)@([A-Za-z\-]+).([a-z]{2,3})(.[a-z]{2,3}?)$/;
+          
+        if(regexp.test(email.value)!="1")
+           {
+              alert("Email Is Invalid");
+              return false;
+           }
+        if(password.value.trim()=="")
+          {
+              alert("password can't be empty")
+              return false;
+          }
+        if(password.value.length<=8)
+          {
+              alert("password should contain minimum 8 letters")
+              return false;
+          }
+              return true;  
+      }
+      
+      
+          
+      
+      const visToggle = document.querySelector('.eyeIcon');
+      
+      const input = document.querySelector('.pas');
+      
+      var password = true;
+      
+      visToggle.addEventListener('click', function(){
+               if(password) {
+                   input.setAttribute('type','text'); 
+                   visToggle.classList.remove('fa-eye');
+                   visToggle.classList.add('fa-eye-slash');
+               } else {
+                   input.setAttribute('type','password');
+                   visToggle.classList.remove('fa-eye-slash');
+                   visToggle.classList.add('fa-eye');
+               }
+          password = !password;
+            }); 
+      </script>
+      </body>
+      </html>
